@@ -1,0 +1,14 @@
+{
+  "name": "timelord-overbot",
+  "version": "0.1.0",
+  "description": "Bots are timeless, eh?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Frano & Harvey",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
