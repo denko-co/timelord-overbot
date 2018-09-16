@@ -1,0 +1,18 @@
+{
+    "zones": [
+        {
+            "name": "New Zealand",
+            "aliases": ["New Zealand", "Wellington", "Auckland", "NZ", "nu zullund"],
+            "timezone": "Pacific/Auckland",
+            "banner_image": "https://p-airnz.com/cms/assets/Common-Assets/Destination-Images/new-zealand-auckland-aerial-view-of-mount-eden-1200x800__ScaleMaxWidthWzczOF0.jpg",
+            "icon_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1200px-Flag_of_New_Zealand.svg.png"
+        },
+        {
+            "name": "Croatia",
+            "aliases": ["Croatia", "CR", "Frano"],
+            "timezone": "Europe/Zagreb",
+            "banner_image": "https://blog.ultra-sailing.hr/wp-content/uploads/2014/03/hvar-pakleni.jpg",
+            "icon_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png",
+        }
+    ]
+}
