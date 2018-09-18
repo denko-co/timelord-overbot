@@ -17,14 +17,16 @@ bot.on('message', function (message) {
   console.log("command = [" + command + "]")
 
   arg = command.shift()
+  var response = ""
+
   switch (arg) {
     case "time":
       response = getTZInfo(command)
       break;
     default:
-      response = "";
   }
 
+  console.log(response)
   if (response) message.channel.send(response);
 });
 
@@ -46,7 +48,11 @@ function validate(message) {
 
 function getTZInfo(args) {
   console.log("Timezone info called with [" + args + "]")
-  TZdata.zones.forEach(function (zone) {
-    console.log(zone)
-  });
+  const matchedZone = TZdata.zones.find(zone => zone.aliases.includes(args[0].toLowerCase()));
+  if (matchedZone) {
+    return new Discord.RichEmbed()
+      .setTitle(matchedZone.name)
+      .setImage(matchedZone.banner_image)
+      .setThumbnail(matchedZone.icon_image)
+  }
 }
