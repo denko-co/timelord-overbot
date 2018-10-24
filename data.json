@@ -4,15 +4,60 @@
             "name": "New Zealand",
             "aliases": ["new zealand", "wellington", "auckland", "nz", "nu zullund"],
             "timezone": "Pacific/Auckland",
-            "banner_image": "https://p-airnz.com/cms/assets/Common-Assets/Destination-Images/new-zealand-auckland-aerial-view-of-mount-eden-1200x800__ScaleMaxWidthWzczOF0.jpg",
-            "icon_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1200px-Flag_of_New_Zealand.svg.png"
+            "locations": [
+              {
+                "name": "Auckland",
+                "timezone": "Pacific/Auckland",
+                "city_id": "2193734"
+              }, {
+                "name": "Wellington",
+                "timezone": "Pacific/Auckland",
+                "city_id": "2179538"
+              }, {
+                "name": "Christchurch",
+                "timezone": "Pacific/Auckland",
+                "city_id": "2192362"
+              }
+            ],
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1200px-Flag_of_New_Zealand.svg.png",
+            "images": [
+              {
+                "description": "An aerial view of Mount Eden, a volcanic peak in Auckland.",
+                "image": "https://p-airnz.com/cms/assets/Common-Assets/Destination-Images/new-zealand-auckland-aerial-view-of-mount-eden-1200x800__ScaleMaxWidthWzczOF0.jpg"
+              }, {
+                "description": "Lady Norwood Rose Garden, in the Wellington Botanic Garden.",
+                "image": "https://www.wellingtonnz.com/assets/Uploads/images/activities-sights/Botanic-Garden-Lady-Norwood-Rose-Garden-1600x645.jpg"
+              }
+            ]
         },
         {
             "name": "Croatia",
             "aliases": ["croatia", "cr", "frano"],
-            "timezone": "Europe/Zagreb",
-            "banner_image": "https://blog.ultra-sailing.hr/wp-content/uploads/2014/03/hvar-pakleni.jpg",
-            "icon_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png"
+            "locations": [
+              {
+                "name": "Zagreb",
+                "timezone": "Europe/Zagreb",
+                "city_id": "3186886"
+              }, {
+                "name": "Split",
+                "timezone": "Europe/Zagreb",
+                "city_id": "3190261"
+              }, {
+                "name": "Korcula",
+                "timezone": "Europe/Zagreb",
+                "city_id": "3197710"
+              }
+            ],
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1200px-Flag_of_Croatia.svg.png",
+            "images": [
+              {
+                "description": "Interior of the Zargreb Cathedral.",
+                "image": "https://static.thousandwonders.net/Zagreb.Cathedral.640.21474.jpg"
+              }, {
+                "description": "Korcula town, on the island of Korcula.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Korcula_City.jpg/1280px-Korcula_City.jpg"
+              }
+            ]
         }
     ]
 }
